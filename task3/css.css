@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin:0;
+}
+#main{
+    background-color: #eee;
+    position: relative;
+    height:500px;
+    padding: 20px;
+
+}
+#team{
+    width: 200px;
+    height: 120px;
+    border: 1px solid #999;
+    position: absolute;
+    background-color: white;
+}
+#team_name{
+    position: absolute;
+    top:20px;
+    right:20px;
+}
+#team img{
+    width:80px;
+    height: 80px;
+    margin:20px;
+}
+#person{
+    width: 120px;
+    height: 430px;
+    border: 1px solid #999999;
+    position: absolute;
+    right: 20px;
+    top:20px;
+    background-color: white;
+}
+#person img{
+    width:80px;
+    height: 80px;
+    margin:20px 20px 0 20px;
+}
+#article{
+    border:1px solid #999;
+   margin: 0 160px auto  240px  ;
+    height: 400px;
+    padding:20px;
+    background-color: white;
+}
