@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 15px ;
+    font-family:"黑体";
+    background-color: aliceblue;
+}
+#header{
+    width:100%;
+    height:70px;
+    background-color: #333333 ;
+}
+#header img{
+    position: relative;
+    float: left;
+    margin-left: 50px;
+}
+#link{
+    float:right;
+    position:relative;
+    margin-right:15px;
+
+}
+#link a {
+    text-align: center;
+    line-height:70px;
+    color:white;
+    text-decoration: none;
+    cursor: pointer;
+}
+#article1,#article2,#article3,#picture{
+    background-color: white;
+    width: 55%;
+    margin:20px auto 20px 20px;
+    border:1px solid aliceblue;
+    padding: 20px;
+    overflow: hidden;
+}
+#side{
+    width:500px;
+    float:right;
+    position: absolute;
+    right:20px;
+    top:90px;
+    background-color:white;
+    border: 1px solid aliceblue;
+}
+h2{
+    font-size:25px;
+    font-weight: bold;
+    line-height: 50px;
+}
+h3{
+    font-size:15px;
+    color:gray;
+    line-height: 30px;
+}
+#article1 span,#article2 span ,#article3 span{
+    font-size:10px;
+    color:gray;
+}
+p{
+    line-height: 30px;
+    text-indent: 2em;
+}
+#article2 ul{
+    list-style: none;
+}
+#article2 ul li{
+    padding:10px;
+}
+.contain{
+    width:120px;
+    height: 120px;
+    border:1px solid black;
+    margin-left:20px;
+    margin-bottom:20px;
+    float:left;
+}
+.contain img{
+    display:block;
+    height: 80px;
+    width:80px;
+    margin:auto;
+}
+#article3 ol{
+    margin-left:50px;
+}
+#article3 ol li{
+    padding:10px;
+    font-weight:bold;
+}
+table{
+    width:100%;
+    border:1px black solid;
+    border-spacing: 0;
+}
+th{
+    background-color: #333333;
+    color:white;
+    text-align: left;
+}
+.all{
+   background-color: dimgray;
+    color:black;
+    font-weight: bold;
+}
+#side h2{
+    display:block;
+    border-left:5px darkgrey solid;
+
+}
+.form{
+    margin-left:20%;
+}
+.form div{
+    margin:20px ;
+}
+.email span{
+    display:inline-block;
+    margin-left:120px;
+    font-size: 10px;
+    color:grey;
+}
+.possword span{
+    font-size:10px;
+    color:grey;
+    display: inline-block;
+    margin-left:125px;
+}
+.gender span{
+    display:inline-block;
+    margin-left:80px;
+}
+.city span{
+    margin-left:80px;
+    display: inline-block;
+}
+.hobby span{
+    margin-left:80px;
+    display: inline-block;
+}
+.description span{
+    display: inline-block;
+    margin-left: 50px;
+    vertical-align: top;
+}
+input[type='submit']{
+    width:80%;
+    background-color: blue;
+    color:white;
+    height: 50px;
+    border-radius: 5px;
+    font-weight: 800;
+    border-radius: 8px;
+    display: block;
+    margin:0px auto 20px;
+
+}
+footer{
+    width:100%;
+    height:60px;
+    bottom: 0;
+    background-color:black;
+    color: #fff;
+    text-align: center;
+    line-height: 60px;
+}
