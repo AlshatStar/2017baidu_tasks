@@ -1,0 +1,57 @@
+#article1{
+    width:641px;
+    margin-top:20px;
+    font-family: "微软雅黑";
+}
+.qd1{
+    width:210px;
+    float: left;
+}
+.qd2{
+    width:210px;
+    float: left;
+    margin-left: 20px;
+}
+.qd3{
+    width:180px;
+    float: left;
+    margin-left:20px;
+}
+.what{
+    color:#418c59;
+    font-size:16px;
+    font-weight:bold;
+    text-decoration:underline;
+    line-height: 40px;
+}
+.when{
+    color:#d2994f;
+    font-size:16px;
+    font-weight:bold;
+    text-decoration:underline;
+    line-height: 40px;
+}
+.how{
+    color:#cc7689;
+    font-size:16px;
+
+    font-weight:bold;
+    text-decoration:underline;
+    line-height: 40px;
+}
+#article1 p{
+    line-height: 16px;
+    opacity: 0.7;
+    color:#231815;
+}
+.per{
+    color:#cd4a48;
+    font-style: italic;
+
+}
+.wh{
+    color: #231815;
+}
+ #article1 table{
+    margin-top:30px;
+}

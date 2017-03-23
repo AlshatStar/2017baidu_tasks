@@ -1,0 +1,12 @@
+* {
+    margin: 0 ;
+    padding: 0;
+}
+main{
+    width:980px;
+    background-color:white;
+    border:none;
+    font-size:12px ;
+    font-family: "宋体";
+    margin:0 auto;
+}
